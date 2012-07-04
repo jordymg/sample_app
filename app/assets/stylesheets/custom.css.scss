@@ -1,7 +1,10 @@
 @import "bootstrap";
 
+<<<<<<< HEAD
 $grayMediumLight: #eaeaea;
 
+=======
+>>>>>>> filling-in-layout
 /* universal */
 
 html {
@@ -22,6 +25,7 @@ textarea {
 
 .center {
   text-align: center;
+<<<<<<< HEAD
   h1  {
     margin-bottom: 10px;
   }
@@ -98,3 +102,12 @@ footer {
     }
   }
 }
+=======
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+
+>>>>>>> filling-in-layout
