@@ -1,5 +1,6 @@
 SampleApp::Application.routes.draw do
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   get "users/new"
 
@@ -12,10 +13,15 @@ SampleApp::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
 
 =======
+=======
+>>>>>>> filling-in-layout
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
   get "static_pages/contact"
+<<<<<<< HEAD
+>>>>>>> filling-in-layout
+=======
 >>>>>>> filling-in-layout
 
   # The priority is based upon order of creation:

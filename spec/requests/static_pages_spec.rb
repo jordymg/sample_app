@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
+=======
+>>>>>>> filling-in-layout
 =======
 >>>>>>> filling-in-layout
 require 'spec_helper'
@@ -7,6 +10,7 @@ require 'spec_helper'
 describe "Static Pages" do
 
   let(:base_title) { "Ruby on Rails Tutorial Sample App" }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   subject {page}
@@ -39,6 +43,8 @@ describe "Static Pages" do
     it { page.should have_selector('h1', text: 'Contact')}
     it { page.should have_selector('title', text: full_title('Contact')) }
 =======
+=======
+>>>>>>> filling-in-layout
   describe "Home Page" do
 
     it "should have the h1 'Sample App'" do
@@ -94,6 +100,9 @@ describe "Static Pages" do
       page.should have_selector('title', :text => "#{base_title} | Contact")
     end
 
+<<<<<<< HEAD
+>>>>>>> filling-in-layout
+=======
 >>>>>>> filling-in-layout
   end
 
